@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     list-style: none;
+    text-decoration: none;
 }
 .encabezado{
     justify-content: center;
@@ -40,10 +41,11 @@ h1{
     align-items: center;
     gap: 3vw;
 }
-li{
+a{
     color: #FFFFFF;
     font-size: 3vh;
     cursor: pointer;
+    margin-left: 20px;
 }
 .img{
     display: flex;
