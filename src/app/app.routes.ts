@@ -1,8 +1,10 @@
 import { Component } from '@angular/core';
 import { Routes } from '@angular/router';
-import { NavbarComponent } from './component/navbar/navbar.component';
+import { AyudaComponent } from './ayuda/ayuda.component';
+import { ContentCentralComponent } from './component/content-central/content-central.component';
 
 
 export const routes: Routes = [
-    {path: 'navbar', component:NavbarComponent}
+    {path:'ayuda',component:AyudaComponent},
+    {path:'',component:ContentCentralComponent},
 ];
